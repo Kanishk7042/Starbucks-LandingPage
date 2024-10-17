@@ -8,7 +8,7 @@ const NavBarComponent = () => {
           <img src={require("../images/logo.png")} alt="logo" width={40} height={40} className='cursor-pointer' />
         </div>
         <div className='flex flex-wrap justify-between'>
-          <span className='xl:ml-12 ml-2 text-{#212529} font-semibold cursor-pointer underline underline-offset-8 decoration-{#00754a} decoration-2'>Home</span>
+          <span className='xl:ml-12 ml-2 text-{#212529} font-light cursor-pointer mt-2 xl:mt-0 underline-offset-8 decoration-[#00754a] underline'>Home</span>
           <span className='xl:ml-12 ml-2 text-{#212529} font-light cursor-pointer mt-2 xl:mt-0'>Gift</span>
           <span className='xl:ml-12 ml-2 text-{#212529} font-light  cursor-pointer mt-2 xl:mt-0 '>Order</span>
           <span className='xl:ml-12 ml-2 text-{#212529} font-light  cursor-pointer mt-2 xl:mt-0 '>Pay</span>
