@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Helps with box model */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+/* Custom Scrollbar Styles */
+.scrollable {
+  height: 100vh; /* Adjust heights based on your components */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Webkit Scrollbar Styles */
+.scrollable::-webkit-scrollbar {
+  height: 4px; /* Reduced height of the horizontal scrollbar */
+  width: 8px;  /* Width of the vertical scrollbar */
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Change track color */
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background: #00754a; /* Change thumb color */
+  border-radius: 10px; /* Rounded corners */
+  height:50px;
+}
+
+.scrollable::-webkit-scrollbar-thumb:hover {
+  background: #005f3b; /* Change hover color */
+}
+
+/* Firefox Scrollbar Styles */
+.scrollable {
+  scrollbar-width: thin; /* Make scrollbar thin */
+  scrollbar-color: #00754a #f1f1f1; /* Thumb color and track color */
+ 
+}

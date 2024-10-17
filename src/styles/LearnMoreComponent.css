@@ -1,0 +1,13 @@
+.image{
+    background-image: url("../images/background.jpg");
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: multiply;
+    height:400px;
+    width: 100%;
+    cursor:pointer;
+}
+
+.image:hover{
+    filter:brightness(50%);
+    transition: all 1s ease;
+}
