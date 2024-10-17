@@ -40,7 +40,7 @@ function BannerComponent() {
             {
               image: third,
               title: "Beverage Subscription",
-              subtitle: "Starbucks Subscription is Back! Sip Your Favourites for Less. Tap for Details. T&C Apply.",
+              subtitle: "Starbucks Subscription is Back! Sip Your Favourites for Less.Explore Menu.Tap for Details. T&C Apply.",
               price: "₹250.00",
               buttonLabel: "Know More",
               imgSrc: "https://preprodtsbstorage.blob.core.windows.net/cms/uploads/285_x_595_App_removebg_preview_2_c4bc942184.png"
