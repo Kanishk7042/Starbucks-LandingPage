@@ -5,6 +5,8 @@
     height:400px;
     width: 100%;
     cursor:pointer;
+    background-position: center;
+    background-size: cover;
 }
 
 .image:hover{
